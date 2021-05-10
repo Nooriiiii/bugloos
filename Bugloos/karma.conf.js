@@ -25,7 +25,7 @@ module.exports = function (config) {
       suppressAll: true // removes the duplicated traces
     },
     coverageReporter: {
-      dir: require('path').join(__dirname, './coverage/DynamicFormBuilder'),
+      dir: require('path').join(__dirname, './coverage/Bugloos'),
       subdir: '.',
       reporters: [
         { type: 'html' },
